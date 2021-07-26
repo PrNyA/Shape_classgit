@@ -1,99 +1,22 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-        <title>Pranaya's Form</title>
+        <title>CSS</title>
+        <link rel="stylesheet" href="H4.css">
+        <header>
+            <h1 class="hh">
+                Hello Welcome to CSS
+            </h1>
+        </header>
     </head>
     <body>
-        <h1>Fill your profile</h1>
-        <form>
-            <label>Name:</label>
-            <input placeholder="Enter name"type="text">
-            <br>
-            <br>
-            <label>Email:</label>
-            <input placeholder="Enter mail id"type="email">
-            <br>
-            <br>
-            <label>Password</label>
-            <input placeholder="Enter password"type="password">
-            <br>
-            <br>
-            <label>Age:</label>
-            <input type="number">
-            <br>
-            <br>
-            <label>Gender:</label>
-            <label>Female</label>
-            <input type="radio" name="op">
-            <label>Male</label>
-            <input type="radio" name="op">
-            <label>Others</label>
-            <input type="radio"name="op">
-            <br>
-            <br>
-            <label>Branch:</label>
-            <select>
-                <option>ECE</option>
-                <option>CSE</option>
-                <option>EEE</option>
-            </select>
-            <br>
-            <br>
-            <label>University:</label>
-            <input type="text">
-            <br>
-            <br>
-            <label>Year of studying:</label>
-            <br>
-            
-            <input type="radio" name="options">
-            <label>E4</label>
-            <br>
-            
-            <input type="radio" name="options">
-            <label>E3</label>
-            <br>
-            
-            <input type="radio" name="options">
-            <label>E2</label>
-            <br>
-            
-            <input type="radio" name="options">
-            <label>E1</label>
-            <br>
-            <br>
-            <label>Parents' occupation:</label>
-            <input minlength="5" maxlength="6" type="text">
-            <br>
-            <br>
-            <label>Favourite color:</label>
-            <br>
-            <input type="checkbox">
-            <label>Pink</label>
-            <input type="checkbox">
-            <label>Blue</label>
-            <input type="checkbox">
-            <label>Purple</label>
-            <br>
-            <br>
-            <label>Favourite dish:</label>
-            <select>
-                <option>Biryani</option>
-                <option>Laddu</option>
-                <option>Samosa</option>
-            </select>
-            <br>
-            <br>
-            <label>Country</label>
-            <input value="India" type="text" required>
-            <br>
-            <br>
-            <input type="search">
-            <br>
-            <br>
-            <a target="blank" href="https://www.google.co.in/">Refer this</a>
-            <input type="submit">
-        </form>
-    </body> 
+        <div name="dd">
+            <img class="ii"src="data:image/jpeg;base64,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"/>
+        </div>
+        <p class ="ll">
+            HEllooooo
+        </p>
+        <p id="pp">Hekkooo</p>
+    </body>
+
 </html>
